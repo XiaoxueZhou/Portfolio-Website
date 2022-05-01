@@ -64,7 +64,7 @@ jobs:
           name: python-app
           path: |
             ./BUILD
- deploy:
+  deploy:
     runs-on: ubuntu-latest
     needs: package
     environment:
@@ -85,3 +85,4 @@ jobs:
           app-name: 'portfolio-website'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2C69EACFD56D48B384E9629A9E336F6F }}
+ 
