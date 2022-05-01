@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %} Welcome to Carol's page {% endblock %}
+
+
+{% block body %} 
+    <ul>
+        <li><a href="/"> Home </a></li>
+        <li><a href="about"> About </a></li>
+    </ul>
+    
+    <h2> Carol's information! </h2> 
+    <p>Date of Birth: 02/26/2000</p>
+    <p>Hometome: Guiyang</p>
+    <img src="{{ url_for('static', filename='image/image3.jpg') }}" width="750"  height="300" class="center"/>
+
+    <hr>
+
+    <P>Tippie College of Business, University of Iowa </P>
+    <li>B.B.A, Business Analytics and Information Systems</li>
+    <li>B.B.A, Accounting </li>
+
+    <p>Project Experience</p>
+    <li>Data Mining Project</li>
+    <Li>Popular Netflix Shows</Li>
+    
+    <img src="{{ url_for('static', filename='image/image2.jpg') }}" width="850"  height="650" />
+   
+    
+
+{% endblock %}
