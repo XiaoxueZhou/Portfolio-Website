@@ -1,7 +1,7 @@
 
 # Portfolio-Website
 > A landing page about self .
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->https://businessanalysis.business/
+> Live demo [_here_](https://businessanalysis.business/). <!-- If you have the project hosted somewhere, include the link here. -->
 
 
 ## Table of Contents
@@ -45,6 +45,6 @@ domain to my page and add a SSL certificate.
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)![Example](https://user-images.githubusercontent.com/90923587/166993084-4a509c5c-04ca-4eed-875c-783b1afefda5.jpg)
+![Example](https://user-images.githubusercontent.com/90923587/166993084-4a509c5c-04ca-4eed-875c-783b1afefda5.jpg)
 
 <!-- If you have screenshots you'd like to share, include them here. -->
