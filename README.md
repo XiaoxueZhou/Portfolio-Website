@@ -44,6 +44,6 @@ domain to my page and add a SSL certificate.
 
 
 ## Screenshots
-!(./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. --![Screen Shot 2022-05-01 at 7 26 13 PM](https://user-images.githubusercontent.com/90923587/166991740-96e9dbc1-9479-4b6d-a5da-759641acf558.png)
->
+![Example screenshot](./img/screenshot.png)![Example](https://user-images.githubusercontent.com/90923587/166993084-4a509c5c-04ca-4eed-875c-783b1afefda5.jpg)
+
+<!-- If you have screenshots you'd like to share, include them here. -->
