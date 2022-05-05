@@ -1,33 +1,49 @@
-# Flask Template
-Basic structure for starting a Flask project with Jinja templates
 
----
-1. Clone this repository to local computer
+# Portfolio-Website
+> A landing page about self .
+> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
-2. Rename the directory to reflect the new project name
+## Table of Contents
+1. Connect with GitHub
+* Clone this repository to local computer
+* Rename the directory to reflect the new project name
+* Delete .git folder
+2. Edit code
+* Add templates - index.html, about.html, base.html
+* Add stylesheet.css 
+* Insert images
+* Add app.py file and define route for each page
+* Add .gitignore file
+3. Run flask
+* Create a new virtual environment - python3 -m venv ./venv
+* Activate the new virtual environmentMac - source ./venv/bin/activate
+* Install the dependencies - pip install -r requirements.txt
+4. Run test
+* Add test file and define test route
+* Run test - python test
+5. Connect with Website
+* Create new resource group 
+* Add App Service, App Service Plan and Delopyment center in Azure
+6. Check all stages of pipeline completed successfully
+7. Configure domain and SSL certificate 
+8. Configure a Google Analytics account and add the tracking code
+<!-- * [License](#license) -->
 
-3. Delete .git folder
 
-4. Create a new virtual environment 
-    - Windows:  ```python -m venv ./venv```
-    - Mac:  ```python3 -m venv ./venv```
+## General Information
+- In this project I will create a landing page for myself on 
+the Internet. In addition I will configure and install Google Analytics and link the custom 
+domain to my page and add a SSL certificate.  
+<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
-5. Activate the new virtual environment
-   - Windows:  ```.\venv\Scripts\activate```
-   - Mac:  ```source ./venv/bin/activate```
 
-6. Install the dependencies ```pip install -r requirements.txt```
+## Technologies Used
+- Python - version 3.9
 
-7. Make a new repository by running ```git init``` in the folder.
 
-8. Track all the files in the new local repository ```git add .```
 
-9. Make the first commit of this new project ```git commit -m 'first commit of <project name> from flask_template```
 
-10. On Github, create a new repository. *DO NOT* initialize it
-
-11. Connect the local repository to the new Github repository ```git remote add origin <<repository_URL>>```
-
-12. Create and change to a new local development branch ```git checkout b development```
-
-13. Continue working with the project as you normally would.
+## Screenshots
+!(./img/screenshot.png)
+<!-- If you have screenshots you'd like to share, include them here. --![Screen Shot 2022-05-01 at 7 26 13 PM](https://user-images.githubusercontent.com/90923587/166991740-96e9dbc1-9479-4b6d-a5da-759641acf558.png)
+>
